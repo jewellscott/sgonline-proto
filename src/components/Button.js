@@ -1,8 +1,9 @@
-const Button = ({ label, handleClick }) => {
+const Button = ({ label, onClick }) => {
+
   return (
     <button
       className="btn btn-default"
-      onClick={handleClick}
+      onClick={onClick}
     >
       {label}
     </button>

@@ -7,7 +7,7 @@ const HomeBanner = () => {
         <div className="graphic-text-logo">
           <SquareLogo/>
           <h1>
-            <span class="visually-hidden">simguru.online</span>
+            <span className="visually-hidden">simguru.online</span>
             <HamburgerLogo/>        
           </h1>   
         </div>

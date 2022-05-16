@@ -146,7 +146,7 @@
     },
     "gameplay": {
       "worlds": [
-        "Willow Creek, Oasis Springs, Newcrest"
+        "Willow Creek", "Oasis Springs", "Newcrest"
       ],
       "careers": [
         {

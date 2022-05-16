@@ -81,6 +81,12 @@ select {
 
 /* layout */
 
+.main-container {
+  max-width: 960px;
+  padding: auto;
+  margin: auto;
+}
+
 .app-header-main {
   display: flex;
   justify-content: space-between;
@@ -94,5 +100,64 @@ select {
 
 .app-nav-header button {
   margin: 0 .5rem;
+}
+
+.home-banner {
+  margin: 5rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.graphic-text-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.home-main-nav {
+  display: grid;
+  grid-gap: 1rem;
+}
+
+@supports (width: min(250px, 100%)) {
+  .home-main-nav {
+    grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
+  }
+}
+
+.home-nav-card {
+  border: 2px solid black;
+  padding: 1rem;
+}
+
+/* logo sizing */
+.hotdog-logo {
+  max-width: 16rem;
+}
+
+.square-logo {
+  max-height: 8rem;
+  border: 2px black solid;
+}
+
+.hamburger-logo {
+  max-height: 7rem;
+  border: 2px black solid;
+}
+
+
+
+.visually-hidden { 
+  border: 0;
+  padding: 0;
+  margin: 0;
+  position: absolute !important;
+  height: 1px; 
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 - a 0 height clip, off to the bottom right of the visible 1px box */
+  clip: rect(1px, 1px, 1px, 1px); /*maybe deprecated but we need to support legacy browsers */
+  clip-path: inset(50%); /*modern browsers, clip-path works inwards from each corner*/
+  white-space: nowrap; /* added line to stop words getting smushed together (as they go onto seperate lines and some screen readers do not understand line feeds as a space */
 }
 

@@ -1,18 +1,15 @@
 import AppHeaderMain from "./components/AppHeaderMain";
-import AppFooterMain from "./components/AppFooterMain";
+import HomeBanner from "./components/HomeBanner";
+import HomeMain from "./components/HomeMain";
 
 function App() {
   return (
     <div className="comtainer">
       <AppHeaderMain/>
-      <main>
-        <ul>
-
-        </ul>
-      </main>
-      <footer>
-        <AppFooterMain/>
-      </footer>
+      <div class="main-container">
+        <HomeBanner/>
+        <HomeMain/>
+      </div>
     </div>
   )
 }

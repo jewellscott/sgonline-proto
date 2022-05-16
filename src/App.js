@@ -1,15 +1,20 @@
-import Header from "./components/Header";
-import ToolSelection from "./components/ToolSelection";
+import AppHeaderMain from "./components/AppHeaderMain";
+import AppFooterMain from "./components/AppFooterMain";
 
 function App() {
   return (
     <div className="comtainer">
-      <Header/>
+      <AppHeaderMain/>
       <main>
-        <ToolSelection/>
+        <ul>
+
+        </ul>
       </main>
+      <footer>
+        <AppFooterMain/>
+      </footer>
     </div>
-  );
+  )
 }
 
 export default App;

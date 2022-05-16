@@ -1,14 +1,12 @@
-const Button = ({ text }) => {
+const Button = ({ label, handleClick }) => {
   return (
-    <button>
-        { text }
+    <button
+      className="btn btn-default"
+      onClick={handleClick}
+    >
+      {label}
     </button>
   )
 }
 
 export default Button
-
-Button.defaultProps = {
-    text: 'Button',
-}
-

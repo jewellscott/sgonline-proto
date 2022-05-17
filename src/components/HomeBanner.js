@@ -1,5 +1,5 @@
-import { ReactComponent as SquareLogo } from '../square-logo-tbd.svg';
-import { ReactComponent as HamburgerLogo } from '../hamburger-logo.svg';
+import { ReactComponent as SquareLogo } from '../assets/square-logo-tbd.svg'
+import { ReactComponent as HamburgerLogo } from '../assets/hamburger-logo.svg';
 
 const HomeBanner = () => {
   return (

@@ -1,17 +1,20 @@
+import './App.css';
 import AppHeaderMain from "./components/AppHeaderMain";
-import HomeBanner from "./components/HomeBanner";
-import HomeMain from "./components/HomeMain";
-import SimGenerator from "./components/SimGenerator";
+
+import { Route, Routes } from 'react-router-dom'
+import Home from './pages/Home';
+import SimGenerator from './pages/SimGenerator';
+import Legal from './pages/Legal';
 
 function App() {
   return (
     <div className="comtainer">
       <AppHeaderMain/>
-      <div className="main-container">
-        <HomeBanner/>
-        <HomeMain/>
-        <SimGenerator/>
-      </div>
+      <Routes>
+        <Route path="/" element={<Home />}/>
+        <Route path="/sim-generator" element={<SimGenerator />}/>
+        <Route path="/legal" element={<Legal/>}/>
+      </Routes>
     </div>
   )
 }

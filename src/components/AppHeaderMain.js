@@ -1,10 +1,13 @@
-import { ReactComponent as HotdogLogo } from '../hotdog-logo.svg';
+import { ReactComponent as HotdogLogo } from '../assets/hotdog-logo.svg' 
+
 import AppNavHeader from './AppNavHeader';
 
 const AppHeaderMain = () => {
   return (
     <header className="app-header-main">
-        <HotdogLogo/>
+        <a href="/">
+           <HotdogLogo/>
+        </a>
         <AppNavHeader/>
     </header>
   )

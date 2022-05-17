@@ -81,8 +81,14 @@ select {
 
 /* layout */
 
-.main-container {
+.container-960 {
   max-width: 960px;
+  padding: auto;
+  margin: auto;
+}
+
+.container-1140 {
+  max-width: 1140px;
   padding: auto;
   margin: auto;
 }
@@ -145,7 +151,32 @@ select {
   border: 2px black solid;
 }
 
+.tool-main-container {
+  display: flex;
+  justify-content: space-around;
+}
 
+.tool-title {
+  text-align: center;
+  margin: 4rem;
+  font-size: 3rem;
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.tool-main-output {
+  width: 100%;
+  height: 100%;
+  justify-content: none;
+  padding: 0 5rem;
+}
+
+.sidebar-nav * {
+  margin: .5rem 0;
+}
 
 .visually-hidden { 
   border: 0;
@@ -161,3 +192,7 @@ select {
   white-space: nowrap; /* added line to stop words getting smushed together (as they go onto seperate lines and some screen readers do not understand line feeds as a space */
 }
 
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}

@@ -1,16 +1,13 @@
 import Button from "../components/Button"
-import { useEffect, useState } from "react"
 import { ReactComponent as SquareLogo } from "../assets/square-logo-tbd.svg"
+
+// import { configData } from '../config.json'
 
 const SimGenerator = () => {
 
-  // const [items, setItems] = useState('');
-
-  const getRandom = () => {
-    fetch('http://localhost:5000/base')
-      .then((res) => res.json())
-      .then((data) => console.log(data));
-  }
+  // let getRandom = () => {
+  //   console.log({configData});
+  // }
 
 
   return (
@@ -30,7 +27,7 @@ const SimGenerator = () => {
             />
             <Button 
               label="Randomize All"
-              onClick={getRandom}
+              // onClick={onClick}
             />
         </nav>
         </aside>
@@ -49,9 +46,3 @@ const SimGenerator = () => {
 }
 
 export default SimGenerator
-
-/* <div>
-          <p>
-            Sul sul! My initials are {dummyData.initials[randomNum]}{dummyData.initials[randomNum]}, and I live in {dummyData.world[randomNum]}! I work at {dummyData.careers[randomNum].workplace} as a {dummyData.careers[randomNum].branches[randomNum]} in the {dummyData.careers[randomNum].name} career.
-          </p>
-        </div> */

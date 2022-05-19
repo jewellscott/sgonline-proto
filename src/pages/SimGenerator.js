@@ -1,11 +1,17 @@
+<<<<<<< HEAD
 import { useState, useEffect } from 'react'
 import Button from "../components/Button";
 import { ReactComponent as SquareLogo } from "../assets/square-logo-tbd.svg";
 
 // import { configData } from '../config.json'
+=======
+import Button from "../components/Button"
+import { ReactComponent as SquareLogo } from "../assets/square-logo-tbd.svg"
+>>>>>>> 9da623ec2c2d2257f807f94dc2918e0ac55f82c0
 
-const SimGenerator = () => {
+// import { configData } from '../config.json'
 
+<<<<<<< HEAD
   // let getRandom = () => {
   //   console.log({configData});
   // }
@@ -20,6 +26,13 @@ const SimGenerator = () => {
   }, [])
 
   // fetch data
+=======
+const SimGenerator = () => {
+
+  // let getRandom = () => {
+  //   console.log({configData});
+  // }
+>>>>>>> 9da623ec2c2d2257f807f94dc2918e0ac55f82c0
 
   const fetchData = async () => {
     const res = await fetch('http://localhost:5000/base');

@@ -1,17 +1,32 @@
-import Button from "../components/Button"
-import { useEffect, useState } from "react"
-import { ReactComponent as SquareLogo } from "../assets/square-logo-tbd.svg"
+import { useState, useEffect } from 'react'
+import Button from "../components/Button";
+import { ReactComponent as SquareLogo } from "../assets/square-logo-tbd.svg";
+
+// import { configData } from '../config.json'
 
 const SimGenerator = () => {
 
-  // const [items, setItems] = useState('');
+  // let getRandom = () => {
+  //   console.log({configData});
+  // }
 
-  const getRandom = () => {
-    fetch('http://localhost:5000/base')
-      .then((res) => res.json())
-      .then((data) => console.log(data));
+  const [items, setItems] = useState('');
+
+  useEffect(() => {
+    const getData = async () => {
+      const dataFromConfig = await fetchData();
+    }
+    getData();
+  }, [])
+
+  // fetch data
+
+  const fetchData = async () => {
+    const res = await fetch('http://localhost:5000/base');
+    const data = await res.json();
+
+    return data;
   }
-
 
   return (
     <main className="tool-main container-1140">        
@@ -30,13 +45,13 @@ const SimGenerator = () => {
             />
             <Button 
               label="Randomize All"
-              onClick={getRandom}
+              // onClick={onClick}
             />
         </nav>
         </aside>
         <section className="tool-main-output">
           <h2>Basics</h2>
-          <p>TBSA</p>
+          {/* <p>{data.cas.basics.initial[1]}</p> */}
           <h2>Appearance</h2>
           <p>TBA</p>
           <h2>Favorites</h2>
@@ -49,9 +64,3 @@ const SimGenerator = () => {
 }
 
 export default SimGenerator
-
-/* <div>
-          <p>
-            Sul sul! My initials are {dummyData.initials[randomNum]}{dummyData.initials[randomNum]}, and I live in {dummyData.world[randomNum]}! I work at {dummyData.careers[randomNum].workplace} as a {dummyData.careers[randomNum].branches[randomNum]} in the {dummyData.careers[randomNum].name} career.
-          </p>
-        </div> */

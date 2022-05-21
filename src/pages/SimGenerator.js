@@ -21,12 +21,14 @@ const SimGenerator = () => {
             />
             <Button 
               label="Randomize All"
-              // onClick={onClick}
+              // onClick={fetchData}
             />
         </nav>
         </aside>
         <section className="tool-main-output">
           <h2>Basics</h2>
+          <p>
+          </p>
           <h2>Appearance</h2>
           <p>TBA</p>
           <h2>Favorites</h2>

@@ -1,19 +1,33 @@
-import { useState } from 'react'
+// import { useState } from 'react'
+import Config from '../config.json'
 import Button from "../components/Button";
 import { ReactComponent as SquareLogo } from "../assets/square-logo-tbd.svg";
 
 const SimGenerator = () => {
 
-  const [sims, setSims] = useState([]);
+  // const [sims, setSims] = useState([]);
 
-  const fetchSims = async () => {
-    const res = await fetch('http://localhost:5000/packs');
-    const json = await res.json();
+  // const fetchSims = async () => {
+  //   const res = await fetch('http://localhost:5000/packs');
+  //   const json = await res.json();
 
-    console.log(json);
-    return json;
-  }
-  
+  //   console.log(json);
+  //   return json;
+  // }
+
+  const cas = Config.packs[0].data[0].cas;
+  const basics = Config.packs[0].data[0].cas.basics[0];
+  const gameplay = Config.packs[0].data[0].gameplay;
+
+  // let randomIndex = (array) => {
+  //   return parseInt(Math.random() * array.length);
+  // }
+
+  let randomize = (arr) => {
+    arr.sort(function(a, b) {
+      return 0.5 - Math.random()
+    })
+  };
 
   return (
     <main className="tool-main container-1140">        
@@ -32,13 +46,14 @@ const SimGenerator = () => {
             />
             <Button 
               label="Randomize All"
-              onClick={fetchSims}
+              // onClick={fetchSims}
             />
         </nav>
         </aside>
         <section className="tool-main-output">
           <h2>Basics</h2>
           <p>
+            Sul Sul! My initials are { basics.initial[0] }
           </p>
           <h2>Appearance</h2>
           <p>TBA</p>

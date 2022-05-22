@@ -1,0 +1,406 @@
+{
+  "packs": [
+    {
+      "name": "Base Game",
+      "packCode": "base",
+      "disabled": "false",
+      "data": [
+        {
+          "cas": {
+            "basics": [
+              {
+                "initial": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H",
+                  "I",
+                  "J",
+                  "K",
+                  "M",
+                  "N",
+                  "O",
+                  "P",
+                  "Q",
+                  "R",
+                  "S",
+                  "T",
+                  "U",
+                  "V",
+                  "W",
+                  "X",
+                  "Y",
+                  "Z"
+                ],
+                "lifestage": [
+                  "young adult",
+                  "adult",
+                  "elder"
+                ],
+                "gender": [
+                  "male",
+                  "female"
+                ],
+                "traits": [
+                  "Active",
+                  "Cheerful",
+                  "Creative",
+                  "Genius",
+                  "Gloomy",
+                  "Goofball",
+                  "Hot-Headed",
+                  "Romantic",
+                  "Self-Assured",
+                  "Art Lover",
+                  "Bookworm",
+                  "Foodie",
+                  "Geek",
+                  "Music Lover",
+                  "Perfectionist",
+                  "Ambitious",
+                  "Childish",
+                  "Clumsy",
+                  "Erratic",
+                  "Glutton",
+                  "Kleptomaniac",
+                  "Lazy",
+                  "Loves Outdoors",
+                  "Materialistic",
+                  "Neat",
+                  "Slob",
+                  "Snob",
+                  "Vegetarian",
+                  "Bro",
+                  "Evil",
+                  "Family-oriented",
+                  "Good",
+                  "Hates Children",
+                  "Jealous",
+                  "Loner",
+                  "Mean",
+                  "Noncommittal",
+                  "Outgoing"
+                ],
+                "aspirations": [
+                  {
+                    "name": "Bodybuilder",
+                    "category": "Athletic",
+                    "description": "I want to work out and become as strong as I can be!"
+                  },
+                  {
+                    "name": "Painter Extraordinaire",
+                    "category": "Creative",
+                    "description": "I want my life to be all about art and painting!"
+                  },
+                  {
+                    "name": "Musical Genius",
+                    "category": "Creative",
+                    "description": "I want to be an expert musician and songwriter!"
+                  },
+                  {
+                    "name": "Bestselling Author",
+                    "category": "Creative",
+                    "description": "I want to write books and become a famous author!"
+                  },
+                  {
+                    "name": "Public Enemy",
+                    "category": "Deviance",
+                    "description": "I want to make enemies and be a famous criminal!"
+                  },
+                  {
+                    "name": "Chief of Mischief",
+                    "category": "Deviance",
+                    "description": "I'm all about pranks and mayhem!"
+                  },
+                  {
+                    "name": "Villianous Valentine",
+                    "category": "Deviance",
+                    "description": "I want to destroy the love lives of all Sims, including my own!"
+                  },
+                  {
+                    "name": "Successful Lineage",
+                    "category": "Family",
+                    "description": "I want to have a family that succeeds in life!"
+                  },
+                  {
+                    "name": "Big Happy Family",
+                    "category": "Family",
+                    "description": "I want to build a large, loving household!"
+                  },
+                  {
+                    "name": "Master Chef",
+                    "category": "Food",
+                    "description": "I want to master the Culinary Arts!"
+                  },
+                  {
+                    "name": "Master Mixologist",
+                    "category": "Food",
+                    "description": "I want to know everything there is to know about Mixology!"
+                  },
+                  {
+                    "name": "Fabulously Wealthy",
+                    "category": "Fortune",
+                    "description": "I want to get rich and have a successful career!"
+                  },
+                  {
+                    "name": "Mansion Baron",
+                    "category": "Fortune",
+                    "description": "I'm all about owning the biggest, fanciest home!"
+                  },
+                  {
+                    "name": "Renaissance Sim",
+                    "category": "Knowledge",
+                    "description": "I want to be good at many things at once!"
+                  },
+                  {
+                    "name": "Nerd Brain",
+                    "category": "Knowledge",
+                    "description": "I want to be both book smart and handy!"
+                  },
+                  {
+                    "name": "Computer Whiz",
+                    "category": "Knowledge",
+                    "description": "I want to know everything about computers, from playing games to Careers!"
+                  },
+                  {
+                    "name": "Serial Romantic",
+                    "category": "Love",
+                    "description": "I want to play the field and go on all sorts of dates with people!"
+                  },
+                  {
+                    "name": "Soulmate",
+                    "category": "Love",
+                    "description": "I want to find and live a rewarding life with \"The One\"!"
+                  },
+                  {
+                    "name": "Freelance Botanist",
+                    "category": "Nature",
+                    "description": "I want to grow plants and become an expert Gardener!"
+                  },
+                  {
+                    "name": "The Curator",
+                    "category": "Nature",
+                    "description": "I want to collect everything this world has to offer!"
+                  },
+                  {
+                    "name": "Angling Ace",
+                    "category": "Nature",
+                    "description": "I want to know everything about fishing!"
+                  },
+                  {
+                    "name": "Joke Star",
+                    "category": "Popularity",
+                    "description": "I want to tell jokes and become a famous comedian!"
+                  },
+                  {
+                    "name": "Party Animal",
+                    "category": "Popularity",
+                    "description": "I want to throw and attend amazing parties!"
+                  },
+                  {
+                    "name": "Friend of the World",
+                    "category": "Popularity",
+                    "description": "I want to make and keep as many friends as I can!"
+                  },
+                  {
+                    "name": "Neighborhood Confidante",
+                    "category": "Popularity",
+                    "description": "I want to provide all manner of advice and to be a positive influence in the lives of my neighbors."
+                  }
+                ]
+              }
+            ]
+          },
+          "gameplay": {
+            "worlds": [
+              "Willow Creek",
+              "Oasis Springs",
+              "Newcrest"
+            ],
+            "careers": [
+              {
+                "name": "Astronaut",
+                "workplace": "SpaceY",
+                "branches": [
+                  "Space Ranger",
+                  "Interstellar Smuggler"
+                ]
+              },
+              {
+                "name": "Athlete",
+                "workplace": "The Other Sports Team",
+                "branches": [
+                  "Professional Athlete",
+                  "Bodybuilder"
+                ]
+              },
+              {
+                "name": "Business",
+                "workplace": "Dewey, Cheatem & Howe Incorporated",
+                "branches": [
+                  "Management",
+                  "Investor"
+                ]
+              },
+              {
+                "name": "Criminal",
+                "workplace": "Mobwives, Inc.",
+                "branches": [
+                  "Boss",
+                  "Oracle"
+                ]
+              },
+              {
+                "name": "Culinary",
+                "workplace": "Make a Dish",
+                "branches": [
+                  "Chef",
+                  "Mixologist"
+                ]
+              },
+              {
+                "name": "Entertainer",
+                "workplace": "Limelight",
+                "branches": [
+                  "Musician",
+                  "Comedian"
+                ]
+              },
+              {
+                "name": "Freelancer",
+                "worlplace": "Computer Experts",
+                "branches": "Programmer"
+              },
+              {
+                "name": "Freelancer",
+                "workplace": "Electrified Artists",
+                "branches": "Digital Artist"
+              },
+              {
+                "name": "Freelancer",
+                "workplace": "Fighting Words",
+                "branches": "Writer"
+              },
+              {
+                "name": "Painter",
+                "workplace": "1000 Words Art Gallery",
+                "branches": [
+                  "Master of the Real",
+                  "Patron of the Arts"
+                ]
+              },
+              {
+                "name": "Secret Agent",
+                "workplace": "S.I.M.S",
+                "branches": [
+                  "Diamond Agent",
+                  "Villain"
+                ]
+              },
+              {
+                "name": "Self-Employed"
+              },
+              {
+                "name": "Style Influencer",
+                "workplace": "Smogue, Inc.",
+                "branches": [
+                  "Trendsetter",
+                  "Stylist"
+                ]
+              },
+              {
+                "name": "Tech Guru",
+                "workplace": "Rainy Day Entertainment",
+                "branches": [
+                  "eSport Gamer",
+                  "Start-up Entrepreneur"
+                ]
+              },
+              {
+                "name": "Writer",
+                "workplace": "Walrus Books",
+                "branches": [
+                  "Author",
+                  "Journalist"
+                ]
+              },
+              {
+                "name": "Babysitter",
+                "workplace": "The Munchkin Menagerie"
+              },
+              {
+                "name": "Barista",
+                "workplace": "The Frothy Foamer"
+              },
+              {
+                "name": "Fast Food Employee",
+                "workplace": "HAMBURGERMAN!"
+              },
+              {
+                "name": "Manual Laborer",
+                "workplace": "Green First Garden Solutions"
+              },
+              {
+                "name": "Retail Employee",
+                "workplace": "The BuyMartShack Company, Inc."
+              }
+            ],
+            "preferences": {
+              "acivities": [
+                "Comedy",
+                "Cooking",
+                "Fishing",
+                "Fitness",
+                "Gardening",
+                "Guitar",
+                "Handiness",
+                "Mischief",
+                "Mixology",
+                "Painting",
+                "Piano",
+                "Programming",
+                "Rocket Science",
+                "Video Gaming",
+                "Violin",
+                "Writing"
+              ],
+              "colors": [
+                "Black",
+                "Blue",
+                "Brown",
+                "Gray",
+                "Green",
+                "Orange",
+                "Pink",
+                "Purple",
+                "Red",
+                "White",
+                "Yellow"
+              ],
+              "music": [
+                "Alternative",
+                "Blues",
+                "Classical",
+                "Electronica",
+                "Hip Hop",
+                "Kids",
+                "Lullabies",
+                "Pop",
+                "Retro",
+                "Romance",
+                "S-Pop",
+                "Spooky",
+                "World",
+                "Winter Holiday"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

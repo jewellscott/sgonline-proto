@@ -1,8 +1,19 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import Button from "../components/Button";
 import { ReactComponent as SquareLogo } from "../assets/square-logo-tbd.svg";
 
 const SimGenerator = () => {
+
+  const [sims, setSims] = useState([]);
+
+  const fetchSims = async () => {
+    const res = await fetch('http://localhost:5000/packs');
+    const json = await res.json();
+
+    console.log(json);
+    return json;
+  }
+  
 
   return (
     <main className="tool-main container-1140">        
@@ -21,7 +32,7 @@ const SimGenerator = () => {
             />
             <Button 
               label="Randomize All"
-              // onClick={fetchData}
+              onClick={fetchSims}
             />
         </nav>
         </aside>

@@ -210,6 +210,11 @@
                     "name": "Neighborhood Confidante",
                     "category": "Popularity",
                     "description": "I want to provide all manner of advice and to be a positive influence in the lives of my neighbors"
+                  },
+                  {
+                    "name": "Grilled Cheese",
+                    "category": "Food",
+                    "description": "I want to eat, discuss, sleep, dream and live grilled cheese sandwiches"
                   }
                 ]
               }

@@ -59,7 +59,7 @@ const SimGenerator = () => {
             
             My friends say I display <AppButton label={ basics.traits.sort(randomize)[0] } />, <AppButton label={ basics.traits[1] } />, and <AppButton label={ basics.traits[3] } /> traits. 
             
-            My aspiration in life is all about <AppButton label= { basics.aspirations[0].category } />– <AppButton label={ basics.aspirations.sort(randomize)[0].name } />! { basics.aspirations[0].description }!
+            My aspiration in life is all about <AppButton label= { basics.aspirations.sort(randomize)[0].category } />– <AppButton label={ basics.aspirations[0].name } />! { basics.aspirations[0].description }!
 
           </p>
           <h2 className="app-h2">Appearance</h2>

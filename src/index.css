@@ -196,3 +196,24 @@ select {
   text-decoration: none;
   color: inherit;
 }
+
+.app-button {
+  display: inline-block;
+  border: 0;
+  background: none;
+  margin: 0;
+  padding: 0;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #0094FF;
+}
+
+.app-h2 {
+  margin: 1.5rem auto;
+}
+
+.tool-main-container p {
+  font-size: 1.1rem;
+  line-height: 3rem;
+  font-weight: 400;
+}

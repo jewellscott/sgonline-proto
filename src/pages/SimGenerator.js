@@ -6,19 +6,24 @@ import AppButton from '../components/AppButton'
 import Basics from '../components/Basics';
 import { randomElement } from '../utils/randomize';
 
+// gamedata imports
+
+  import { cas } from '../js/gamedata';
+  import { basics } from '../js/gamedata';
+  import { gameplay } from '../js/gamedata';
+  import { career } from '../js/gamedata';
+  import { carBranch } from '../js/gamedata';
+  import { carDescription } from '../js/gamedata';
+  import { carWorkplace } from '../js/gamedata';
+  import { activity } from '../js/gamedata';
+  import { aspiration } from '../js/gamedata';
+  import { aspCategory } from '../js/gamedata';
+  import { aspDescription } from '../js/gamedata';
+
 const SimGenerator = () => {
-
-  let randomize = (a, b) => {
-    return Math.random() - 0.5;
-  }
-
-  const cas = Config.packs[0].data[0].cas;
-  const basics = Config.packs[0].data[0].cas.basics[0];
-  const gameplay = Config.packs[0].data[0].gameplay;
 
   // [ value, function ]
   const [ initial, setInitial ] = useState(randomElement(basics.initial));
-
   const [ world, setWorld ] = useState(randomElement(gameplay.worlds));
 
   function randomizeAll() {

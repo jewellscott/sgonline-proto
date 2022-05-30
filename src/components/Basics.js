@@ -1,6 +1,6 @@
 import AppButton from "./AppButton"
 
-const Basics = ({ initial, world, carBranch, career, carWorkplace, activity, trait, aspCategory, aspiration, aspDescription }) => {
+const Basics = ({ initial, world, career, carName, carBranch, carWorkplace, activity, trait, aspCategory, aspiration, aspName, aspDescription }) => {
   return (
     <>
       <p>
@@ -8,13 +8,13 @@ const Basics = ({ initial, world, carBranch, career, carWorkplace, activity, tra
           </p>
           <br/>
           <p>
-            I work at { carWorkplace } as a <AppButton label={ carBranch } /> in the <AppButton label={ career } /> career. 
+            I work at { carWorkplace } in the <AppButton label={ carBranch } /> branch of the <AppButton label={ carName } /> career. 
             
              In my free time, I enjoy <AppButton label={ activity } /> and <AppButton label={ activity } />, but I dislike <AppButton label={ activity } />. 
             
             My friends say I display <AppButton label={ trait } />, <AppButton label={ trait } />, and <AppButton label={ trait } /> traits. 
             
-            My aspiration in life is all about <AppButton label= { aspCategory } />– <AppButton label={ aspiration } />! { aspDescription }!
+            My aspiration in life is all about <AppButton label= { aspCategory } />– <AppButton label={ aspName } />! { aspDescription }!
           </p>
     </>
   )

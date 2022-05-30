@@ -10,6 +10,7 @@ export const initial = basics.initial;
 export const world = gameplay.worlds;
 
 export const career = gameplay.careers[0];
+export const carName = gameplay.careers[0].name;
 export const carBranch = gameplay.careers[0].branches[0];
 export const carDescription = gameplay.careers[0].description;
 export const carWorkplace = gameplay.careers[0].workplace;
@@ -19,6 +20,7 @@ export const activity = gameplay.preferences.acivities[0];
 export const trait = basics.traits[0];
 
 export const aspiration = basics.aspirations[0];
+export const aspName = basics.aspirations[0].name;
 export const aspCategory = basics.aspirations[0].category;
-const aspDescription = basics.aspirations[0].description;
+export const aspDescription = basics.aspirations[0].description;
 

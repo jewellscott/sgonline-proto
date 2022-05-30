@@ -1,6 +1,6 @@
 import AppButton from "./AppButton"
 
-const Basics = ({ initial, world }) => {
+const Basics = ({ initial, world, carBranch, career, carWorkplace, activity, trait, aspCategory, aspiration, aspDescription }) => {
   return (
     <>
       <p>
@@ -8,14 +8,13 @@ const Basics = ({ initial, world }) => {
           </p>
           <br/>
           <p>
-            {/* I work at { gameplay.careers.sort(randomize)[0].workplace } as a <AppButton label={ gameplay.careers[0].branches.sort(randomize)[0] } /> in the <AppButton label={ gameplay.careers[0].name } /> career. 
-             */}
-            {/* In my free time, I enjoy <AppButton label={ gameplay.preferences.acivities.sort(randomize)[0] } /> and <AppButton label={ gameplay.preferences.acivities[1] } />, but I dislike <AppButton label={ gameplay.preferences.acivities[2] } />. 
+            I work at { carWorkplace } as a <AppButton label={ carBranch } /> in the <AppButton label={ career } /> career. 
             
-            My friends say I display <AppButton label={ basics.traits.sort(randomize)[0] } />, <AppButton label={ basics.traits[1] } />, and <AppButton label={ basics.traits[3] } /> traits. 
+             In my free time, I enjoy <AppButton label={ activity } /> and <AppButton label={ activity } />, but I dislike <AppButton label={ activity } />. 
             
-            My aspiration in life is all about <AppButton label= { basics.aspirations.sort(randomize)[0].category } />– <AppButton label={ basics.aspirations[0].name } />! { basics.aspirations[0].description }! */}
-
+            My friends say I display <AppButton label={ trait } />, <AppButton label={ trait } />, and <AppButton label={ trait } /> traits. 
+            
+            My aspiration in life is all about <AppButton label= { aspCategory } />– <AppButton label={ aspiration } />! { aspDescription }!
           </p>
     </>
   )

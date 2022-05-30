@@ -6,7 +6,7 @@ const randomize = (a, b) => {
 
 // Basics
 
-export const randomElement = (arr) => {
+export const randInd = (arr) => {
   let array = [...arr];
   return array.sort(randomize)[0];
 }

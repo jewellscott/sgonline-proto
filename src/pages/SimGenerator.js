@@ -23,16 +23,8 @@ const SimGenerator = () => {
   const [ carWorkplace, setCarWorkplace ] = useState(career.workplace);
   
   const [ activity, setActivity ] = useState(randInd(gameplay.preferences.acivities));
-  
-  // const [ activity1, setActivity1 ] = useState(activity[0]);
-  // const [ activity2, setActivity2 ] = useState(activity[1]);
-  // const [ activity3, setActivity3 ] = useState(activity[2]);
 
   const [ trait, setTrait ] = useState(randInd(basics.traits));
-
-  // const [ trait1, setTrait1 ] = useState(trait[0]);
-  // const [ trait2, setTrait2 ] = useState(trait[1]);
-  // const [ trait3, setTrait3 ] = useState(trait[2]);
 
   const [ aspiration, setAspiration ] = useState(randInd(basics.aspirations));
   const [ aspName, setAspName ] = useState(aspiration.name)
@@ -52,16 +44,7 @@ const SimGenerator = () => {
 
     setActivity(randInd(gameplay.preferences.acivities));
 
-    // setActivity1(activity[0]);
-    // setActivity2(activity[1]);
-    // setActivity3(activity[2]);
-
-
     setTrait(randInd(basics.traits));
-
-    // setTrait1(trait[0]);
-    // setTrait2(trait[1]);
-    // setTrait3(trait[2]);
 
     setAspiration(randInd(basics.aspirations));
     setAspName(aspiration.name);
@@ -100,13 +83,7 @@ const SimGenerator = () => {
               carBranch={ carBranch } 
               carWorkplace = { carWorkplace }
               activity = { activity } 
-              // activity1 = { activity1 }
-              // activity2 = { activity2 }
-              // activity3 = { activity3 }
               trait = { trait }
-              // trait1= { trait1 }
-              // trait2= { trait2 }
-              // trait3 = { trait3 }
               aspiration = { aspiration }
               aspName = { aspName }
               aspCategory = { aspCategory } 

@@ -1,7 +1,7 @@
 import { activity } from "../js/gamedata"
 import AppButton from "./AppButton"
 
-const Basics = ({ initial, world, career, carName, carBranch, carWorkplace, activity, activity1, activity2, activity3, trait, trait1, trait2, trait3, aspCategory, aspiration, aspName, aspDescription }) => {
+const Basics = ({ initial, world, career, carName, carBranch, carWorkplace, activity, trait, aspCategory, aspiration, aspName, aspDescription }) => {
   return (
     <>
       <p>

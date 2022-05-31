@@ -11,3 +11,7 @@ export const randInd = (arr) => {
   return array.sort(randomize)[0];
 }
 
+export const randList = (arr, num) => {
+  let array = [...arr];
+  return array.sort(randomize).slice(0, num);
+}

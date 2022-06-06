@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import Config from '../config.json'
 import Button from "../components/Button";
 import { ReactComponent as SquareLogo } from "../assets/square-logo-tbd.svg";
 import AppButton from '../components/AppButton'
@@ -59,6 +58,7 @@ const SimGenerator = () => {
     setAspName(aspiration.name);
     setAspCategory(aspiration.category);
     setAspDescription(aspiration.description);
+
   }
 
   return (

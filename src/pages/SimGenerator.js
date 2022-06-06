@@ -14,7 +14,6 @@ const SimGenerator = () => {
 
   // [ value, function ]
 
-  // const [ initial, setInitial ] = useState(randInd(basics.initial));
   const [ initials, setInitials ] = useState(randList(basics.initial, 2));
   const [ world, setWorld ] = useState(randInd(gameplay.worlds));
 
@@ -22,12 +21,9 @@ const SimGenerator = () => {
   const [ carName, setCarName ] = useState(career.name);
   const [ carBranch, setCarBranch ] = useState(randInd(career.branches));
   const [ carWorkplace, setCarWorkplace ] = useState(career.workplace);
-  
-  // const [ activity, setActivity ] = useState(randInd(gameplay.preferences.acivities));
 
   const [ activities, setActivities ] = useState(randList(gameplay.preferences.acivities, 3));
 
-  // const [ trait, setTrait ] = useState(randInd(basics.traits));
   const [ traits, setTraits ] = useState(randList(basics.traits, 3));
 
 
@@ -38,7 +34,6 @@ const SimGenerator = () => {
 
 
   function randomizeAll() {
-    // setInitial(randInd(basics.initial));
     setInitials(randList(basics.initial, 2))
     setWorld(randInd(gameplay.worlds));
 
@@ -47,10 +42,8 @@ const SimGenerator = () => {
     setCarBranch(randInd(career.branches));
     setCarWorkplace(career.workplace);
 
-    // setActivity(randInd(gameplay.preferences.acivities));
     setActivities(randList(gameplay.preferences.acivities, 3));
 
-    // setTrait(randInd(basics.traits));
     setTraits(randList(basics.traits, 3));
 
 
